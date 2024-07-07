@@ -1,0 +1,107 @@
+/* DIV */
+
+body
+{
+	background-color: black;
+	background-size: fixed;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.container
+{
+	margin: 1px auto;
+	padding: 20px;
+	background-color: rgba(6,0,0,0.7);
+	margin: 1px auto;
+}
+
+.text1
+ {	
+	color: blue;
+	font-family: Bauhaus 93;
+	font-size: 75px;
+	text-decoration: overline underline;
+	margin: 50px auto;
+ }	
+ 
+ 
+ .logo
+ {
+	box-shadow: 0 0 500px white;
+	background-color: white;
+	margin-top: -35px;
+ }
+ 
+ .text
+ {
+	color: black;
+ }
+ nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	float: left;
+	width: 20%;
+}
+
+nav a
+{
+	background-color: black;
+	display: block;
+	text-align: center;
+	padding: 4px 0;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	background-color: white;
+	color: black;
+	transition: .5s;
+}
+
+ .bio
+ {
+	text-align: left;
+	color: navy;
+ }
+ 
+ .footer
+{
+	padding: 3px 30px;
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-size: 10pt;
+}
+
+.footer a
+{
+	color: #49c0f0;
+	text-decoration: none;
+}
+
+.footer a:hover
+{
+	text-decoration: underline;
+}
+
+.footer a:link
+{
+	color: yellow;
+}
+
+.footer a:visited
+{
+	color: green;
+}
+ 
+.bio 
+{
+	color: white;
+}
